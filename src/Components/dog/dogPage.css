@@ -1,0 +1,72 @@
+.container {
+    width: 100vw;
+    height: 84vh;
+    display: flex;
+}
+
+.filter {
+    width: 14vw;
+    max-height: 83vh;
+    background-color: thistle;
+    border-radius: 5px;
+    margin: 5px 0 0 5px;
+}
+
+.list {
+    display: flex;
+    background-color: whitesmoke;
+    max-width: 85vw;
+    margin: 5px 0 0 5px;
+    border-radius: 5px;
+    max-height: 83vh;
+    flex-wrap: wrap;
+    overflow-y: overlay;
+}
+
+.tile {
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 180px;
+    min-width: 180px;
+    background-color:dimgrey;
+    padding: 10px 10px 10px 10px;
+    font-family: cursive;
+    margin: 5px 5px 5px 5px;
+    font-size: medium;
+    color: black;
+    position: relative;
+    border-radius: 2px;
+    text-overflow: ellipsis;
+}
+
+.imgloader {
+    max-height: 140px;
+    max-width: 180px;
+    margin: 10px 0 10px 0;
+}
+
+.row {
+    margin: 10px 0 0 5px;
+    display: flex;
+    flex-direction: row;
+    max-width: 180px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.subfont {
+    font-size: smaller;
+}
+
+.ellipsis { 
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
